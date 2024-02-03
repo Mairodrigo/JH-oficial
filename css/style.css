@@ -162,10 +162,10 @@ p{
     flex-wrap: wrap;
 }
 .carousel-aranceles-container{
-    max-width: 20% ;
+    max-width: 70% ;
     margin: auto;
 }
-.carousel-container{
+.carousel-galeria-container{
     max-width: 60%;
     margin: auto;
 }
