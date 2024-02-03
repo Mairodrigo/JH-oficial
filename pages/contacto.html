@@ -1,40 +1,123 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Club Jose Hernandez</title>
-		<!--Link bootstrap y css-->
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-			crossorigin="anonymous" />
-		<link rel="stylesheet" href="../css/style.css" />
-	</head>
 
-	<body>
-		<!--Inicio de header-->
-		<header>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Club Jose Hernandez</title>
+    <!--Link bootstrap y css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/style.css" />
+</head>
 
-        </header>
-		<!--Inicio de main-->
+<body>
+    <!--Inicio de header-->
+    <header class="encabezado">
+        <section class="logo-titulos-container">
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="../assets/Escudo.png" alt="logo del club" class="logo-jh" />
+                </a>
+            </div>
+            <div class="titulos-container">
+                <h1 class="titulo-ppal">JOSE HERNANDEZ</h1>
+                <h2 class="subtitulo-ppal">#ElClubDelBarrio</h2>
+            </div>
+        </section>
+        <section class="menu-container">
+            <nav>
+                <ul class="menu-lista">
+                    <li>
+                        <a href="../index.html" class="menu-lista-item">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="./club.html" class="menu-lista-item">El club</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle menu-lista-item" href="" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Actividades
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Artes Marciales</a></li>
+                            <li><a class="dropdown-item" href="#">Basquet</a></li>
+                            <li><a class="dropdown-item" href="#">EFI</a></li>
+                            <li><a class="dropdown-item" href="#">Gimnasia</a></li>
+                            <li><a class="dropdown-item" href="#">Futbol</a></li>
+                            <li><a class="dropdown-item" href="#">Natatorio</a></li>
+                            <li><a class="dropdown-item" href="#">Patin</a></li>
+                            <li><a class="dropdown-item" href="#">A todo ritmo</a></li>
+                            <li><a class="dropdown-item" href="#">Ritmos Urbanos</a></li>
+                            <li><a class="dropdown-item" href="#">Salsa</a></li>
+                            <li><a class="dropdown-item" href="#">Tango</a></li>
+                            <li><a class="dropdown-item" href="#">Yoga</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/10F1Ue3lJ7XBYhF9WxePbZyr-m2fkMCiqYbvyROT2bpY/edit#gid=0">Grilla completa 2024</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./tienda.html" class="menu-lista-item">Tienda JH</a>
+                    </li>
+                    <li>
+                        <a href="./contacto.html " class="menu-lista-item">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <!--Inicio de main-->
 
-		<main>
+    <main>
 
-        </main>
-        <!--Inicio de footer-->
-		<footer>
+    </main>
+    <!--Inicio de footer-->
+    <footer class="pie">
+        <section class="redes-container">
+            <div class="instagram">
+                <a href="https://www.instagram.com/clubjosehernandezoficial">
+                    <i class="fa-brands fa-square-instagram fa-icono"></i>
+                </a>
+            </div>
+            <div class="telefono">
+                <a href="tel+541146352323">
+                    <i class="fa-solid fa-square-phone-flip fa-icono"></i>
+                </a>
+            </div>
 
-        </footer>
-		<!-- bootstrap -->
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-			crossorigin="anonymous"></script>
-		<!-- fontawesome -->
-		<script
-			src="https://kit.fontawesome.com/91cd69ba43.js"
-			crossorigin="anonymous"></script>
-	</body>
+            <div class="email">
+                <a href="mailto:asocjosehernandez@hotmail.com">
+                    <i class="fa-solid fa-envelope fa-icono"></i>
+                </a>
+            </div>
+
+            <div class="ubicacion">
+                <a href="https://maps.app.goo.gl/F5dWqaEt7gsrfeX67">
+                    <i class="fa-solid fa-location-dot fa-icono"></i>
+                </a>
+            </div>
+        </section>
+        <section class="banner-container">
+            <img src="../assets/banner100.jpeg" alt="banner JH desde 1924 hasta 2024" class="banner-footer" />
+        </section>
+        <section class="dev-container">
+            <p>
+                Developed by Mailen Rodrigo - Club Jose Hernandez, todos los derechos
+                reservados
+            </p>
+        </section>
+    </footer>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/91cd69ba43.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
