@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap");
+/*SUBTITULOS Y CUERPO font-family: "Montserrat", sans-serif
+TITULOS font-family: "Oswald", sans-serif*/
+
+/*Reseteo*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+img {
+	width: 100%;
+}
+ul {
+	list-style: none;
+}
+
+/*Header*/
+.encabezado {
+	background-image: linear-gradient(
+		0,
+		#dafdff 0,
+		#afe7ff 16.67%,
+		#7ecefb 33.33%,
+		#3cb5f2 50%,
+		#009ce9 66.67%,
+		#0084e0 83.33%,
+		#006ed7 100%
+	);
+	display: flex;
+	flex-wrap: wrap;
+}
+.logo-titulos-container {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+.logo-jh {
+	width: 100%;
+	height: auto;
+}
+
+.titulos-container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+.titulo-ppal {
+	font-family: "Oswald", sans-serif;
+	font-weight: bold;
+	font-size: 8em;
+	color: #1d2396;
+    text-shadow: 2px 2px 4px #0000004D
+}
+
+.subtitulo-ppal {
+	font-family: "Oswald", sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 4em;
+	color: #065988;
+}
+.menu-container {
+	width: 100%;
+}
+.menu-lista {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 10em;
+	align-items: center;
+	background-color: #1a1048;
+}
+
+.menu-lista-item {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 100;
+	font-size: 2em;
+	color: white;
+}
+.menu-lista-item:hover {
+	color: #1d2396;
+}
+
+/*Footer*/
+.pie {
+	background-image: radial-gradient(
+		circle at 37.72% -19.64%,
+		#dafdff 0,
+		#afe7ff 16.67%,
+		#7ecefb 33.33%,
+		#3cb5f2 50%,
+		#009ce9 66.67%,
+		#0084e0 83.33%,
+		#006ed7 100%
+	);
+	display: flex;
+	flex-wrap: wrap;
+}
+.redes-container {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 3em;
+	padding: 1em;
+	margin-bottom: 0.5em;
+}
+.fa-icono {
+	font-size: 3em;
+}
+/* Estilos para pantallas más pequeñas */
+@media only screen and (max-width: 768px) {
+	.titulo-ppal {
+		font-size: 5em;
+	}
+
+	.subtitulo-ppal {
+		font-size: 2.5em;
+	}
+	.logo-jh {
+		width: 50%;
+		height: auto;
+		margin-left: 4em;
+	}
+	.menu-lista-item {
+		font-size: 1.5em;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.titulo-ppal {
+		font-size: 3.5em;
+	}
+
+	.subtitulo-ppal {
+		font-size: 2em;
+	}
+}
+@media only screen and (max-width: 210px) {
+	.titulo-ppal {
+		font-size: 2em;
+	}
+
+	.subtitulo-ppal {
+		font-size: 1em;
+	}
+}
