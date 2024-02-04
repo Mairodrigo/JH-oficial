@@ -174,7 +174,17 @@ p {
 	max-width: 60%;
 	margin: auto;
 }
+/*Main club*/
 
+.quincho-img{
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+}
+.biblioteca-img{
+    width: 40%;
+    margin: auto;
+}
 /* Estilos para pantallas más pequeñas */
 @media only screen and (max-width: 860px) {
 	.titulo-ppal {
