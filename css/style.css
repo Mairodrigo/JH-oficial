@@ -185,6 +185,25 @@ p {
     width: 40%;
     margin: auto;
 }
+
+/*Main tienda*/
+.hash-tienda {
+	font-family: "oswald", sans-serif;
+	font-size: 2rem;
+}
+.video-tienda {
+	width: 20rem;
+	height: auto;
+}
+.ropa {
+	width: 15rem;
+	height: auto;
+}
+
+/*Main contacto*/
+p.contacto {
+	font-size: 1.5rem;
+}
 /* Estilos para pantallas más pequeñas */
 @media only screen and (max-width: 860px) {
 	.titulo-ppal {
