@@ -189,20 +189,21 @@ p {
 /*Main tienda*/
 .hash-tienda {
 	font-family: "oswald", sans-serif;
-	font-size: 2rem;
+	font-size: 2em;
 }
 .video-tienda {
-	width: 20rem;
+	width: 20em;
 	height: auto;
 }
 .ropa {
-	width: 15rem;
+	width: 15em;
 	height: auto;
 }
 
 /*Main contacto*/
+
 p.contacto {
-	font-size: 1.5rem;
+	font-size: 2em;
 }
 /* Estilos para pantallas más pequeñas */
 @media only screen and (max-width: 860px) {
