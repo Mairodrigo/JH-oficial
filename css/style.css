@@ -123,7 +123,9 @@ main {
 .fa-icono {
 	font-size: 3em;
 }
-
+.banner-footer{
+	width: 100%;
+}
 /*Propiedades en comun*/
 h3 {
 	font-family: "Oswald", sans-serif;
@@ -144,6 +146,7 @@ p {
 	font-family: "Montserrat";
 	font-size: 1.7em;
 	font-weight: 200;
+	margin-left: 1em;
 }
 /*Main index*/
 .obra3-container {
@@ -176,14 +179,14 @@ p {
 }
 /*Main club*/
 
-.quincho-img{
-    width: 40%;
-    margin: auto;
-    padding: 10px;
+.quincho-img {
+	width: 40%;
+	margin: auto;
+	padding: 10px;
 }
-.biblioteca-img{
-    width: 40%;
-    margin: auto;
+.biblioteca-img {
+	width: 40%;
+	margin: auto;
 }
 
 /*Main tienda*/
