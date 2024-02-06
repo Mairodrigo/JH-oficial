@@ -303,4 +303,7 @@ p {
 		font-size: 1em;
 		font-weight: 300;
 	}
+	.video-tienda{
+		display: none;
+	}
 }
