@@ -123,8 +123,8 @@ main {
 .fa-icono {
 	font-size: 3em;
 }
-.banner-footer{
-	width: 100%;
+.copy{
+	color: whitesmoke;
 }
 /*Propiedades en comun*/
 h3 {
@@ -241,20 +241,55 @@ p.contacto {
 	.titulo-ppal {
 		font-size: 3.5em;
 	}
-
 	.subtitulo-ppal {
-		font-size: 2em;
+		font-size: 2.5em;
 	}
 	.logo-jh {
-		margin: 0;
+		width: 50%;
+		height: auto;
+	}
+	.menu-lista-item {
+		font-size: 1.5em;
+	}
+	.menu-lista {
+		gap: 2em;
+	}
+	h3 {
+		font-size: 2em;
+	}
+	h4 {
+		font-size: 1.7em;
+	}
+	p {
+		font-size: 1.2em;
+		font-weight: 300;
 	}
 }
 @media only screen and (max-width: 210px) {
 	.titulo-ppal {
 		font-size: 2em;
 	}
-
 	.subtitulo-ppal {
+		font-size: 1.2em;
+	}
+	.logo-jh {
+		width: 50%;
+		height: auto;
+	}
+	.menu-lista-item {
 		font-size: 1em;
+	}
+	.menu-lista {
+		gap: 1em;
+	}
+	h3 {
+		font-size: 1.4em;
+	}
+	h4 {
+		font-size: 1.2em;
+	}
+	p {
+		font-size: 1em;
+		font-weight: 300;
 	}
 }
