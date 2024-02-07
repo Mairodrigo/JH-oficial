@@ -48,6 +48,9 @@ main {
 	padding-top: 1em;
 	padding-bottom: 2em;
 }
+.logo-container{
+	text-align: center;
+}
 .logo-jh {
 	width: 100%;
 	height: auto;
@@ -177,12 +180,15 @@ p {
 	max-width: 60%;
 	margin: auto;
 }
-/*Main club*/
-
+/*Main club*/;
+.img-quincho-container {
+	text-align: center;
+}
 .quincho-img {
 	width: 40%;
-	margin: auto;
+	margin: 0 auto;
 	padding: 10px;
+
 }
 .biblioteca-img {
 	width: 40%;
