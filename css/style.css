@@ -194,7 +194,15 @@ p {
 	width: 40%;
 	margin: auto;
 }
-
+/*Actividades*/
+.act-info-container{
+	text-align: center;
+	background-color: #3cb5f2;
+}
+.act-info-item{
+	font-family: "Montserrat";
+	font-size: 2em;
+}
 /*Main tienda*/
 .hash-tienda {
 	font-family: "oswald", sans-serif;
@@ -253,6 +261,9 @@ p {
 		font-size: 1.4em;
 		font-weight: 300;
 	}
+	.act-info-item{
+		font-size: 1.4em;
+	}
 }
 @media only screen and (max-width: 480px) {
 	.titulo-ppal {
@@ -281,6 +292,9 @@ p {
 		font-size: 1.2em;
 		font-weight: 300;
 	}
+	.act-info-item{
+		font-size: 1.2em;
+	}
 }
 @media only screen and (max-width: 210px) {
 	.titulo-ppal {
@@ -308,6 +322,9 @@ p {
 	p {
 		font-size: 1em;
 		font-weight: 300;
+	}
+	.act-info-item{
+		font-size: 1em
 	}
 
 }
