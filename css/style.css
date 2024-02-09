@@ -48,6 +48,9 @@ main {
 	padding-top: 1em;
 	padding-bottom: 2em;
 }
+.logo-container{
+	text-align: center;
+}
 .logo-jh {
 	width: 100%;
 	height: auto;
@@ -92,7 +95,7 @@ main {
 	color: white;
 }
 .menu-lista-item:hover {
-	color: #1d2396;
+	color: #71b3f6;
 }
 
 /*Footer*/
@@ -177,18 +180,29 @@ p {
 	max-width: 60%;
 	margin: auto;
 }
-/*Main club*/
-
+/*Main club*/;
+.img-quincho-container {
+	text-align: center;
+}
 .quincho-img {
 	width: 40%;
-	margin: auto;
+	margin: 0 auto;
 	padding: 10px;
+
 }
 .biblioteca-img {
 	width: 40%;
 	margin: auto;
 }
-
+/*Actividades*/
+.act-info-container{
+	text-align: center;
+	background-color: #3cb5f2;
+}
+.act-info-item{
+	font-family: "Montserrat";
+	font-size: 2em;
+}
 /*Main tienda*/
 .hash-tienda {
 	font-family: "oswald", sans-serif;
@@ -247,6 +261,9 @@ p {
 		font-size: 1.4em;
 		font-weight: 300;
 	}
+	.act-info-item{
+		font-size: 1.4em;
+	}
 }
 @media only screen and (max-width: 480px) {
 	.titulo-ppal {
@@ -275,6 +292,9 @@ p {
 		font-size: 1.2em;
 		font-weight: 300;
 	}
+	.act-info-item{
+		font-size: 1.2em;
+	}
 }
 @media only screen and (max-width: 210px) {
 	.titulo-ppal {
@@ -302,6 +322,9 @@ p {
 	p {
 		font-size: 1em;
 		font-weight: 300;
+	}
+	.act-info-item{
+		font-size: 1em
 	}
 
 }
