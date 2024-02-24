@@ -203,6 +203,13 @@ p {
 	font-family: "Montserrat";
 	font-size: 2em;
 }
+.act-artesmar{
+	font-weight: 600;
+}
+.act-artesmar-container{
+	font-size: 1.7em;
+	font-weight: 200;
+}
 /*Main tienda*/
 .hash-tienda {
 	font-family: "oswald", sans-serif;
