@@ -1,0 +1,54 @@
+@mixin sizes ($width, $height) {
+	width: $width;
+	height: $height;
+}
+@mixin flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@mixin flex-center{
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+@mixin h1{
+	font-family: $font-principal;
+	font-size: $font-xl;
+	font-weight: bold;
+	color: $color-h1;
+		text-shadow: 2px 2px 4px #0000004d
+}
+@mixin h2{
+	font-family: $font-principal;
+	font-size: $font-m;
+	color: $color-h2;
+	font-style: italic;
+}
+@mixin h3{
+    font-family: $font-principal;
+	font-size: $font-m;
+	color: $color-h3;
+	background-color:$color-h3-back;
+	padding: 0px 10px;
+	text-align: center;
+}
+
+@mixin h4{
+	font-family: $font-secundaria;
+	font-size: $font-s;
+	font-weight: 600;
+	font-style: italic;
+	margin-top: 1.5em;
+}
+
+@mixin p{
+	font-family: $font-secundaria;
+	font-size: $font-xs;
+	margin: 1px;
+}
+
+@mixin carousel{
+	max-width: 70%;
+	margin: auto
+}
