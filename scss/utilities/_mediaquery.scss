@@ -1,0 +1,94 @@
+/* Estilos para pantallas más pequeñas */
+@media only screen and (max-width: 860px) {
+	.titulo-ppal {
+		font-size: 5em;
+	}
+	.subtitulo-ppal {
+		font-size: 2.5em;
+	}
+	.logo-jh {
+		width: 50%;
+		height: auto;
+	}
+	.menu-container-item {
+		font-size: 1.5em;
+	}
+	.menu-container {
+		gap: 3em;
+	}
+	h3 {
+		font-size: 2.4em;
+	}
+	h4 {
+		font-size: 2em;
+	}
+	p {
+		font-size: 1.4em;
+		font-weight: 300;
+	}
+	.act-info-item {
+		font-size: 1.4em;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.titulo-ppal {
+		font-size: 3.5em;
+	}
+	.subtitulo-ppal {
+		font-size: 2.5em;
+	}
+	.logo-jh {
+		width: 50%;
+		height: auto;
+	}
+	.menu-container-item {
+		font-size: 1.5em;
+	}
+	.menu-container {
+		gap: 2em;
+	}
+	h3 {
+		font-size: 2em;
+	}
+	h4 {
+		font-size: 1.7em;
+	}
+	p {
+		font-size: 1.2em;
+		font-weight: 300;
+	}
+	.act-info-item {
+		font-size: 1.2em;
+	}
+}
+@media only screen and (max-width: 210px) {
+	.titulo-ppal {
+		font-size: 2em;
+	}
+	.subtitulo-ppal {
+		font-size: 1.2em;
+	}
+	.logo-jh {
+		width: 50%;
+		height: auto;
+	}
+	.menu-container-item {
+		font-size: 1em;
+	}
+	.menu-container {
+		gap: 1em;
+	}
+	h3 {
+		font-size: 1.4em;
+	}
+	h4 {
+		font-size: 1.2em;
+	}
+	p {
+		font-size: 1em;
+		font-weight: 300;
+	}
+	.act-info-item {
+		font-size: 1em;
+	}
+}
