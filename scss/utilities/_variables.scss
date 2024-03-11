@@ -1,0 +1,30 @@
+//colores
+$color-main: #dafdff;
+$color-degradado: linear-gradient(
+		0,
+		#dafdff 0,
+		#afe7ff 16.67%,
+		#7ecefb 33.33%,
+		#3cb5f2 50%,
+		#009ce9 66.67%,
+		#0084e0 83.33%,
+		#006ed7 100%
+	);
+$color-h1: #1d2396;
+$color-h2: #065988;
+$color-h3: #dafdff;
+$color-h3-back: #1a1048;
+
+//tipografias
+$font-principal: "Oswald", sans-serif;
+$font-secundaria: "Montserrat", sans-serif;
+
+//fuentes
+$font-xs:1.7em;
+$font-s:2.3em; 
+$font-m:4em;
+$font-xl: 8em;
+
+//diseño
+$pad-s: 1em;
+$pad-m: 2em;

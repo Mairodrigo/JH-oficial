@@ -1,0 +1,99 @@
+.encabezado {
+	background-image: $color-degradado;
+	@include flex;
+
+	.logo-titulos-container {
+		@include sizes(100%, auto);
+		@include flex;
+		@include flex-center;
+		padding-top: $pad-s;
+		padding-bottom: $pad-m;
+
+		.logo-container {
+			text-align: center;
+		}
+		.titulos-container {
+			@include flex;
+			@include flex-center;
+			flex-direction: column;
+		}
+		.titulo-ppal {
+			@include h1;
+		}
+		.subtitulo-ppal {
+			@include h2;
+		}
+	}
+}
+.menu {
+	width: 100%;
+	&-container {
+		@include flex;
+		flex-direction: row;
+		@include flex-center;
+		gap: 10em;
+		background-color: $color-h1;
+
+		&-item {
+			color: white;
+			font-size: $font-s;
+			font-weight: 100;
+		}
+
+		&-item:hover {
+			color: wheat;
+			transition: 1s;
+		}
+		.dropdown-menu {
+			background-color: $color-h1;
+		}
+		.dropdown-item {
+			color: white;
+			font-size: $font-xs;
+		}
+
+		.dropdown-item:hover {
+			background-color: $color-h2;
+		}
+	}
+}
+
+//Main//
+main{
+    background-color: $color-main
+}
+h3 {
+	@include h3;
+}
+
+h4 {
+	@include h4;
+}
+p {
+	@include p;
+}
+.carousel {
+	@include carousel;
+}
+
+//Footer//
+.pie {
+	background-image: $color-degradado;
+	@include flex;
+    padding: $pad-m;
+	.redes-container {
+		@include sizes(100%, auto);
+		@include flex;
+		@include flex-center;
+		gap: 3em;
+		padding: $pad-s;
+		&-icono {
+			font-size: $font-m;
+		}
+	}
+}
+.copy{
+    font-style: italic;
+    font-weight: 200;
+    font-size: $font-xs;
+}
