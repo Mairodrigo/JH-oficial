@@ -42,6 +42,7 @@
 
 		&-item:hover {
 			color: wheat;
+			transition: 1s;
 		}
 		.dropdown-menu {
 			background-color: $color-h1;
