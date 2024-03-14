@@ -1,281 +1,412 @@
 <!DOCTYPE html>
 <html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="keywords"
+			content="Club, mataderos, actividades, deportes, gimnasia, natatorio, basquet, futbol, futsal, salsa, yoga, artes marciales, judo, karate, taekwondo, patin, tango, colonia de verano, colonia de invierno" />
+		<meta
+			name="description"
+			content="Club de barrio que brinda distintas actividades deportivas ubicado en el barrio de Mataderos, CABA." />
+		<meta name="og:type" content="Web site" />
+		<meta name="og:title" content="Club Jose Hernandez" />
+		<meta name="og:url" content="..." />
+		<meta name="og:img" content="..." />
+		<meta
+			name="og:description"
+			content="Club de barrio que brinda distintas actividades deportivas ubicado en el barrio de Mataderos, CABA." />
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<title>Club Jose Hernandez - Inicio</title>
+		<!--LINK BOOTSTRAP Y CSS-->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+			crossorigin="anonymous" />
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Club Jose Hernandez</title>
-	<!--Link bootstrap y css-->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
-	<link rel="stylesheet" href="./css/style.css" />
-</head>
-
-<body>
-	<!--Inicio de header-->
-	<header class="encabezado">
-		<section class="logo-titulos-container">
-			<div class="logo-container">
-				<a href="index.html">
-					<img src="./assets/Escudo.png" alt="logo del club" class="logo-jh" />
-				</a>
-			</div>
-			<div class="titulos-container">
-				<h1 class="titulo-ppal">JOSE HERNANDEZ</h1>
-				<h2 class="subtitulo-ppal">#ElClubDelBarrio</h2>
-			</div>
-		</section>
-		<section class="menu">
-			<nav>
-				<ul class="menu-container">
-					<li>
-						<a href="index.html" class="menu-container-item">Inicio</a>
-					</li>
-					<li>
-						<a href="./pages/club.html" class="menu-container-item">El club</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle menu-container-item" href="" role="button"
-							data-bs-toggle="dropdown" aria-expanded="false">
-							Actividades
-						</a>
-						<ul class="dropdown-menu">
-							<li>
-								<a class="dropdown-item" href="./actividades/artes-marciales.html">Artes Marciales</a>
-							</li>
-							<li>
-								<a class="dropdown-item" href="./actividades/basquet.html">Basquet</a>
-							</li>
-							<li>
-								<a class="dropdown-item" href="./actividades/EFI.html">EFI</a>
-							</li>
-							<li>
-								<a class="dropdown-item" href="./actividades/futbol.html">Futbol</a>
-							</li>
-							<li>
-								<a class="dropdown-item" href="./actividades/gimnasia.html">Gimnasia</a>
-							</li>
-							<li>
-								<a class="dropdown-item" href="./actividades/natatorio.html">Natatorio</a>
-							</li>
-							<li>
-								<a class="dropdown-item" href="./actividades/patin.html">Patin</a>
-							</li>
-							<li>
-								<a class="dropdown-item" href="./actividades/todo-ritmo.html">A todo ritmo</a>
-							</li>
-							<li>
-								<a class="dropdown-item" href="./actividades/ritmos-urbanos.html">Ritmos Urbanos</a>
-							</li>
-							<li>
-								<a class="dropdown-item" href="./actividades/salsa.html">Salsa</a>
-							</li>
-							<li>
-								<a class="dropdown-item" href="./actividades/tango.html">Tango</a>
-							</li>
-							<li>
-								<a class="dropdown-item" href="./actividades/yoga.html">Yoga</a>
-							</li>
-							<li>
-								<hr class="dropdown-divider" />
-							</li>
-							<li>
-								<a class="dropdown-item"
-									href="https://docs.google.com/spreadsheets/d/10F1Ue3lJ7XBYhF9WxePbZyr-m2fkMCiqYbvyROT2bpY/edit#gid=0">Grilla
-									completa 2024</a>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<a href="./pages/tienda.html" class="menu-container-item">Tienda JH</a>
-					</li>
-					<li>
-						<a href="./pages/contacto.html " class="menu-container-item">Contacto</a>
-					</li>
-				</ul>
-			</nav>
-		</section>
-	</header>
-	<!--Inicio de main-->
-
-	<main>
-		<section class="novedades-container">
-			<h3>Novedades</h3>
-			<section class="container">
-				<div class="row">
-					<div class="col-sm-12 col-md-12 col-xl-6">
-						<article>
-							<h4>OBRA 3º PISO</h4>
-							<p>
-								Con profunda alegría queremos compartir con toda la comunidad
-								hernandiana los avances de la obra del 3º piso. Con un cambio
-								de ultimo momento en un detalle fundamental; pueden notarlo?
-								Recordamos que dicha obra tiene fecha de finalizacion en Enero
-								2024
-							</p>
-						</article>
-						<div id="carouselExample" class="carousel slide carousel-obra3-container">
-							<div class="carousel-inner">
-								<div class="carousel-item active">
-									<img src="./assets/Obra-3/pisodest2.jpg" class="d-block w-100" alt="..." />
-								</div>
-								<div class="carousel-item">
-									<img src="./assets/Obra-3/pisodest4.jpg" class="d-block w-100" alt="..." />
-								</div>
-								<div class="carousel-item">
-									<img src="./assets/Obra-3/pisonw1.jpg" class="d-block w-100" alt="..." />
-								</div>
-							</div>
-							<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-								data-bs-slide="prev">
-								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-								<span class="visually-hidden">Previous</span>
-							</button>
-							<button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-								data-bs-slide="next">
-								<span class="carousel-control-next-icon" aria-hidden="true"></span>
-								<span class="visually-hidden">Next</span>
-							</button>
-						</div>
-					</div>
-					<div class="col-sm-12 col-md-12 col-xl-6">
-						<article>
-							<h4>CUOTA SOCIAL</h4>
-							<p>
-								Estimados socios y socias: En el contexto de nuestra economía
-								se ha decidido actualizar el valor de la cuota social para
-								hacer frente a los aumentos de las tarifas de servicios y los
-								aumentos dispuestos por el sindicato. Dicho aumento comenzará a regir a partir de Octubre manteniendo el descuento abonando del 1 al 10 de cada mes. Agradecemos la
-								comprensión y su compromiso con la institución.
-							</p>
-						</article>
-						<div id="carouselExampleIndicators" class="carousel slide carousel-aranceles-container">
-							<div class="carousel-indicators">
-								<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-									class="active" aria-current="true" aria-label="Slide 1"></button>
-								<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-									aria-label="Slide 2"></button>
-								<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-									aria-label="Slide 3"></button>
-							</div>
-							<div class="carousel-inner">
-								<div class="carousel-item active">
-									<img src="./assets/Aranceles/aranc_mayores.jpg" class="d-block w-100"
-										alt="aranceles de mayores" />
-								</div>
-								<div class="carousel-item">
-									<img src="./assets/Aranceles/aranc_menores.jpg" class="d-block w-100"
-										alt="aranceles de menores" />
-								</div>
-								<div class="carousel-item">
-									<img src="./assets/Aranceles/aranc_jubilados.jpg" class="d-block w-100"
-										alt="aranceles de jubilados" />
-								</div>
-							</div>
-							<button class="carousel-control-prev" type="button"
-								data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-								<span class="visually-hidden">Previous</span>
-							</button>
-							<button class="carousel-control-next" type="button"
-								data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-								<span class="carousel-control-next-icon" aria-hidden="true"></span>
-								<span class="visually-hidden">Next</span>
-							</button>
-						</div>
-					</div>
+	<body>
+		<!--INICIO HEADER-->
+		<header class="encabezado">
+			<section class="logo-titulos-container">
+				<div class="logo-container">
+					<a href="index.html">
+						<img
+							src="./assets/Escudo.png"
+							alt="logo del club"
+							class="logo-jh" />
+					</a>
+				</div>
+				<div class="titulos-container">
+					<h1 class="titulo-ppal">JOSE HERNANDEZ</h1>
+					<h2 class="subtitulo-ppal">#ElClubDelBarrio</h2>
 				</div>
 			</section>
-			<section class="container">
-				<div class="row">
-					<div class="col-md-12 col-sm-12 col-xl-6">
-						<article>
-							<h4>NUEVA OBRA</h4>
-							<p>
-								Estamos felices de anunciar un nuevo plan de obra que
-								próximamente podran disfrutar todos nuestros socios. Se trata
-								de la
-								<strong>remodelacion de los vestuarios </strong> tanto del
-								natatorio como los de la cancha Millan. Dicha obra comenzará
-								en Diciembre 2023 con fecha estimada de finalizacion en
-								Febrero 2024. Comenzando por los vestuarios de la cancha en
-								primera instancia y por ultimo los del natatorio ya que estos
-								se veran afectados por la colonia. Vamos JH!
-							</p>
-						</article>
+			<section class="menu">
+				<nav>
+					<ul class="menu-container">
+						<li>
+							<a href="index.html" class="menu-container-item">Inicio</a>
+						</li>
+						<li>
+							<a href="./pages/club.html" class="menu-container-item"
+								>El club</a
+							>
+						</li>
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle menu-container-item"
+								href=""
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false">
+								Actividades
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a
+										class="dropdown-item"
+										href="./actividades/artes-marciales.html"
+										>Artes Marciales</a
+									>
+								</li>
+								<li>
+									<a class="dropdown-item" href="./actividades/basquet.html"
+										>Basquet</a
+									>
+								</li>
+								<li>
+									<a class="dropdown-item" href="./actividades/EFI.html">EFI</a>
+								</li>
+								<li>
+									<a class="dropdown-item" href="./actividades/futbol.html"
+										>Futbol</a
+									>
+								</li>
+								<li>
+									<a class="dropdown-item" href="./actividades/gimnasia.html"
+										>Gimnasia</a
+									>
+								</li>
+								<li>
+									<a class="dropdown-item" href="./actividades/natatorio.html"
+										>Natatorio</a
+									>
+								</li>
+								<li>
+									<a class="dropdown-item" href="./actividades/patin.html"
+										>Patin</a
+									>
+								</li>
+								<li>
+									<a class="dropdown-item" href="./actividades/todo-ritmo.html"
+										>A todo ritmo</a
+									>
+								</li>
+								<li>
+									<a
+										class="dropdown-item"
+										href="./actividades/ritmos-urbanos.html"
+										>Ritmos Urbanos</a
+									>
+								</li>
+								<li>
+									<a class="dropdown-item" href="./actividades/salsa.html"
+										>Salsa</a
+									>
+								</li>
+								<li>
+									<a class="dropdown-item" href="./actividades/tango.html"
+										>Tango</a
+									>
+								</li>
+								<li>
+									<a class="dropdown-item" href="./actividades/yoga.html"
+										>Yoga</a
+									>
+								</li>
+								<li>
+									<hr class="dropdown-divider" />
+								</li>
+								<li>
+									<a
+										class="dropdown-item"
+										href="https://docs.google.com/spreadsheets/d/10F1Ue3lJ7XBYhF9WxePbZyr-m2fkMCiqYbvyROT2bpY/edit#gid=0"
+										>Grilla completa 2024</a
+									>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="./pages/tienda.html" class="menu-container-item"
+								>Tienda JH</a
+							>
+						</li>
+						<li>
+							<a href="./pages/contacto.html " class="menu-container-item"
+								>Contacto</a
+							>
+						</li>
+					</ul>
+				</nav>
+			</section>
+		</header>
+		<!--FIN DE HEADER-->
+
+		<!--INICIO MAIN-->
+		<main>
+			<section class="novedades-container">
+				<h3>Novedades</h3>
+				<section class="container">
+					<div class="row">
+						<div class="col-sm-12 col-md-12 col-xl-6">
+							<article>
+								<h4>OBRA 3º PISO</h4>
+								<p>
+									Con profunda alegría queremos compartir con toda la comunidad
+									hernandiana los avances de la obra del 3º piso. Con un cambio
+									de ultimo momento en un detalle fundamental; pueden notarlo?
+									Recordamos que dicha obra tiene fecha de finalizacion en Enero
+									2024
+								</p>
+							</article>
+							<div
+								id="carouselExample"
+								class="carousel slide carousel-obra3-container">
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img
+											src="./assets/Obra-3/pisodest2.jpg"
+											class="d-block w-100"
+											alt="..." />
+									</div>
+									<div class="carousel-item">
+										<img
+											src="./assets/Obra-3/pisodest4.jpg"
+											class="d-block w-100"
+											alt="..." />
+									</div>
+									<div class="carousel-item">
+										<img
+											src="./assets/Obra-3/pisonw1.jpg"
+											class="d-block w-100"
+											alt="..." />
+									</div>
+								</div>
+								<button
+									class="carousel-control-prev"
+									type="button"
+									data-bs-target="#carouselExample"
+									data-bs-slide="prev">
+									<span
+										class="carousel-control-prev-icon"
+										aria-hidden="true"></span>
+									<span class="visually-hidden">Previous</span>
+								</button>
+								<button
+									class="carousel-control-next"
+									type="button"
+									data-bs-target="#carouselExample"
+									data-bs-slide="next">
+									<span
+										class="carousel-control-next-icon"
+										aria-hidden="true"></span>
+									<span class="visually-hidden">Next</span>
+								</button>
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-12 col-xl-6">
+							<article>
+								<h4>CUOTA SOCIAL</h4>
+								<p>
+									Estimados socios y socias: En el contexto de nuestra economía
+									se ha decidido actualizar el valor de la cuota social para
+									hacer frente a los aumentos de las tarifas de servicios y los
+									aumentos dispuestos por el sindicato. Dicho aumento comenzará
+									a regir a partir de Octubre manteniendo el descuento abonando
+									del 1 al 10 de cada mes. Agradecemos la comprensión y su
+									compromiso con la institución.
+								</p>
+							</article>
+							<div
+								id="carouselExampleIndicators"
+								class="carousel slide carousel-aranceles-container">
+								<div class="carousel-indicators">
+									<button
+										type="button"
+										data-bs-target="#carouselExampleIndicators"
+										data-bs-slide-to="0"
+										class="active"
+										aria-current="true"
+										aria-label="Slide 1"></button>
+									<button
+										type="button"
+										data-bs-target="#carouselExampleIndicators"
+										data-bs-slide-to="1"
+										aria-label="Slide 2"></button>
+									<button
+										type="button"
+										data-bs-target="#carouselExampleIndicators"
+										data-bs-slide-to="2"
+										aria-label="Slide 3"></button>
+								</div>
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img
+											src="./assets/Aranceles/aranc_mayores.jpg"
+											class="d-block w-100"
+											alt="aranceles de mayores" />
+									</div>
+									<div class="carousel-item">
+										<img
+											src="./assets/Aranceles/aranc_menores.jpg"
+											class="d-block w-100"
+											alt="aranceles de menores" />
+									</div>
+									<div class="carousel-item">
+										<img
+											src="./assets/Aranceles/aranc_jubilados.jpg"
+											class="d-block w-100"
+											alt="aranceles de jubilados" />
+									</div>
+								</div>
+								<button
+									class="carousel-control-prev"
+									type="button"
+									data-bs-target="#carouselExampleIndicators"
+									data-bs-slide="prev">
+									<span
+										class="carousel-control-prev-icon"
+										aria-hidden="true"></span>
+									<span class="visually-hidden">Previous</span>
+								</button>
+								<button
+									class="carousel-control-next"
+									type="button"
+									data-bs-target="#carouselExampleIndicators"
+									data-bs-slide="next">
+									<span
+										class="carousel-control-next-icon"
+										aria-hidden="true"></span>
+									<span class="visually-hidden">Next</span>
+								</button>
+							</div>
+						</div>
 					</div>
-					<div class="col-md-12 col-sm-12 col-xl-6"></div>
+				</section>
+				<section class="container">
+					<div class="row">
+						<div class="col-md-12 col-sm-12 col-xl-6">
+							<article>
+								<h4>NUEVA OBRA</h4>
+								<p>
+									Estamos felices de anunciar un nuevo plan de obra que
+									próximamente podran disfrutar todos nuestros socios. Se trata
+									de la
+									<strong>remodelacion de los vestuarios </strong> tanto del
+									natatorio como los de la cancha Millan. Dicha obra comenzará
+									en Diciembre 2023 con fecha estimada de finalizacion en
+									Febrero 2024. Comenzando por los vestuarios de la cancha en
+									primera instancia y por ultimo los del natatorio ya que estos
+									se veran afectados por la colonia. Vamos JH!
+								</p>
+							</article>
+						</div>
+						<div class="col-md-12 col-sm-12 col-xl-6"></div>
+					</div>
+				</section>
+			</section>
+			<section class="galeria-container">
+				<h3>Galeria</h3>
+				<div
+					id="carouselExampleFade"
+					class="carousel slide carousel-fade carousel-galeria-container">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img
+								src="./assets/Espacios/fachada-horizontal.jpg"
+								class="d-block w-100"
+								alt="..." />
+						</div>
+						<div class="carousel-item">
+							<img
+								src="./assets/Espacios/pileta-andari.jpg"
+								class="d-block w-100"
+								alt="..." />
+						</div>
+						<div class="carousel-item">
+							<img
+								src="./assets/Espacios/Millanplot.jpg"
+								class="d-block w-100"
+								alt="..." />
+						</div>
+					</div>
+					<button
+						class="carousel-control-prev"
+						type="button"
+						data-bs-target="#carouselExampleFade"
+						data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button
+						class="carousel-control-next"
+						type="button"
+						data-bs-target="#carouselExampleFade"
+						data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
 				</div>
 			</section>
-		</section>
-		<section class="galeria-container">
-			<h3>Galeria</h3>
-			<div id="carouselExampleFade" class="carousel slide carousel-fade carousel-galeria-container">
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<img src="./assets/Espacios/fachada-horizontal.jpg" class="d-block w-100" alt="..." />
-					</div>
-					<div class="carousel-item">
-						<img src="./assets/Espacios/pileta-andari.jpg" class="d-block w-100" alt="..." />
-					</div>
-					<div class="carousel-item">
-						<img src="./assets/Espacios/Millanplot.jpg" class="d-block w-100" alt="..." />
-					</div>
+		</main>
+		<!--FIN MAIN-->
+
+		<!--INICIO FOOTER-->
+		<footer class="pie">
+			<section class="redes-container">
+				<div class="instagram">
+					<a href="https://www.instagram.com/clubjosehernandezoficial">
+						<i class="fa-brands fa-square-instagram redes-container-icono"></i>
+					</a>
 				</div>
-				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
-					data-bs-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Previous</span>
-				</button>
-				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
-					data-bs-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Next</span>
-				</button>
-			</div>
-		</section>
-	</main>
-	<!--Inicio de footer-->
-	<footer class="pie">
-		<section class="redes-container">
-			<div class="instagram">
-				<a href="https://www.instagram.com/clubjosehernandezoficial">
-					<i class="fa-brands fa-square-instagram redes-container-icono"></i>
-				</a>
-			</div>
-			<div class="telefono">
-				<a href="tel:+541146352323">
-					<i class="fa-solid fa-square-phone-flip redes-container-icono"></i>
-				</a>
-			</div>
+				<div class="telefono">
+					<a href="tel:+541146352323">
+						<i class="fa-solid fa-square-phone-flip redes-container-icono"></i>
+					</a>
+				</div>
 
-			<div class="email">
-				<a href="mailto:asocjosehernandez@hotmail.com">
-					<i class="fa-solid fa-envelope redes-container-icono"></i>
-				</a>
-			</div>
+				<div class="email">
+					<a href="mailto:asocjosehernandez@hotmail.com">
+						<i class="fa-solid fa-envelope redes-container-icono"></i>
+					</a>
+				</div>
+				<div class="ubicacion">
+					<a href="https://maps.app.goo.gl/F5dWqaEt7gsrfeX67">
+						<i class="fa-solid fa-location-dot redes-container-icono"></i>
+					</a>
+				</div>
+			</section>
 
-			<div class="ubicacion">
-				<a href="https://maps.app.goo.gl/F5dWqaEt7gsrfeX67">
-					<i class="fa-solid fa-location-dot redes-container-icono"></i>
-				</a>
-			</div>
-		</section>
+			<section class="dev-container">
+				<p class="copy">
+					Developed by Mailen Rodrigo - Club Jose Hernandez, todos los derechos
+					reservados
+				</p>
+			</section>
+		</footer>
+		<!--FIN FOOTER-->
 
-		<section class="dev-container">
-			<p class="copy">
-				Developed by Mailen Rodrigo - Club Jose Hernandez, todos los derechos
-				reservados
-			</p>
-		</section>
-	</footer>
-
-	<!-- bootstrap -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-		crossorigin="anonymous"></script>
-	<!-- fontawesome -->
-	<script src="https://kit.fontawesome.com/91cd69ba43.js" crossorigin="anonymous"></script>
-</body>
-
+		<!--BOOTSTRAP -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+			crossorigin="anonymous"></script>
+		<!--FONTAWESOME-->
+		<script
+			src="https://kit.fontawesome.com/91cd69ba43.js"
+			crossorigin="anonymous"></script>
+	</body>
 </html>
